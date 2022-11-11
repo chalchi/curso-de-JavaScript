@@ -1,0 +1,10 @@
+-
+-
+-Programa una función que cuente el número de carecteres de una cadena de texto, pe.miFuncion('Hola mundo'); devolverá 10.
+
+-Programa una función que te devuelva el texto recortado según el número de caracteres indicados, pe.miFumcion('Hola mundo', 4); devolverá 'Hola'.
+
+-Programa una función que dada una String te devuelva un Array de textos separados por cierto caracter, pe.miFumcion('Hola que tal ',''); devolverá ['Hola', 'que', 'tal',].
+
+-Programa una función que repita un texto X veces, pe.miFuncion('Hola Mundo', 3); devolvera 
+Hola Mundo Hola Mundo Hola Mundo.
