@@ -12,4 +12,4 @@ function separador(string) {
   }
 }
 
-console.log(separador("Escrapy"));
+// -Esta función devuelve el texto recortado según el número de caracteres indicados, pe.miFumcion('Hola mundo', 4); devolverá 'Hola'.
