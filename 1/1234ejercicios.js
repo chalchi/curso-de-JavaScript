@@ -25,10 +25,16 @@ function recorte(string, num) {
     }
   }
 }
-// console.log(
-//   recorte(palabra,20)
-// );
+// console.log(recorte(palabra,20));
 
-// -Programa una función que dada una String te devuelva un Array de textos separados por cierto caracter, pe.miFumcion('Hola que tal ',''); devolverá ['Hola', 'que', 'tal',].
+// -Esta función le insertas un String y te devuelva un Array de textos separados por cierto caracter,  pe.miFumcion ('Hola que tal ',''); devolverá ['Hola', 'que', 'tal',].
+
+function separaTextos(array, caracter) {
+  if (caracter) {
+    let separado = array.split(" ").join(caracter);
+    return separado;
+  }
+}
+console.log(separaTextos("Me lleva", ". "));
 
 // -Programa una función que repita un texto X veces, pe.miFuncion('Hola Mundo', 3); devolvera  Hola Mundo Hola Mundo Hola Mundo.
