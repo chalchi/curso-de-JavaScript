@@ -14,9 +14,21 @@ function separador(string) {
 
 // -Esta función devuelve el texto recortado según el número de caracteres indicados, pe.miFumcion('Hola mundo', 4); devolverá 'Hola'.
 
-let palabra = "Algo";
+let palabra =
+  "si los monitos son tan lindos como tu entonces amaria trabajar en el sologico";
 function recorte(string, num) {
-  for (let i = 0; i =; i++){
-
+  let acumulador = [];
+  for (let i = 0; i < string.length; i++) {
+    acumulador += string[i];
+    if (acumulador.length === num) {
+      return acumulador;
+    }
   }
 }
+// console.log(
+//   recorte(palabra,20)
+// );
+
+// -Programa una función que dada una String te devuelva un Array de textos separados por cierto caracter, pe.miFumcion('Hola que tal ',''); devolverá ['Hola', 'que', 'tal',].
+
+// -Programa una función que repita un texto X veces, pe.miFuncion('Hola Mundo', 3); devolvera  Hola Mundo Hola Mundo Hola Mundo.
