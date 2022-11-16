@@ -13,3 +13,10 @@ function separador(string) {
 }
 
 // -Esta función devuelve el texto recortado según el número de caracteres indicados, pe.miFumcion('Hola mundo', 4); devolverá 'Hola'.
+
+let palabra = "Algo";
+function recorte(string, num) {
+  for (let i = 0; i =; i++){
+
+  }
+}
